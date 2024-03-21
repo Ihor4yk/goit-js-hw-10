@@ -1,15 +1,7 @@
-// const startBtn = document.querySelector("button");
+const startBtn = document.querySelector("[data-start]");
 
-// startBtn.addEventListener("click", () => {
-//   setInterval(() => {
-//     console.log("Hello");
-//   }, 1000)
-// });
-
-// startBtn.addEventListener("click", handleClick)
-
-// function handleClick() {
-//   setInterval(() => {
-//     console.log("Hallo");
-//   }, 1000)
-// }
+startBtn.addEventListener("click", () => {
+  setInterval(() => {
+    console.log("Hello");
+  }, 1000)
+});
